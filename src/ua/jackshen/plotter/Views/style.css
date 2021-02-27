@@ -1,0 +1,95 @@
+.label {
+  -fx-font-size: 18;
+  -fx-font-family: "GOST type B";
+}
+
+.text-field {
+   -fx-font-size: 16;
+   -fx-font-family: "Cambria Math";
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+
+.button {
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Cooper Black";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 16px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+.bordered-titled-title {
+  -fx-background-color: white, #3d3c3b;
+  -fx-text-fill: linear-gradient(white, #d0d0d0);
+  -fx-translate-y: -12;
+  -fx-translate-x: -120;
+}
+
+.border-pane {
+    -fx-border-base: gray;
+    -fx-border-shadow: white;
+    -fx-light-border: derive(-fx-border-base, 25%);
+    -fx-border-color: -fx-light-border -fx-border-base -fx-border-base -fx-light-border;
+    -fx-border-insets: 0 1 1 0;
+    -fx-background-color: -fx-border-shadow, #3d3c3b;
+    -fx-background-insets: 1 0 0 1, 2;
+    -fx-padding: 2;
+}
+
+.flow-pane {
+    -fx-background-color: black, #3d3c3b;
+}
+
+.scroll-pane {
+   -fx-background: #3d3c3b;
+   -fx-border-color: #3d3c3b;
+}
+
+.chart-plot-background {
+    -fx-background-color: white;
+}
+
+.axis {
+    -fx-font-family: "Cambria Math";
+    -fx-font-size: 12;
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 5em;
+}
