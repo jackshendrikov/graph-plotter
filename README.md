@@ -18,6 +18,13 @@ The graph plotter contains the following features:
 
 In general, everything is based on the `Decorator`, `Prototype` and `Visitor` patterns.
 
+<details>
+  <summary>Class Diagram</summary>
+<p align="center">
+    <img src="img/diagram.png" alt="Class Diagram">
+</p>
+</details>
+
 ## Example of project performance
 
 <p align="center">
